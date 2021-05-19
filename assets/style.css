@@ -26,7 +26,8 @@ figure h2{
 
 p{  display:flex;
     font-size: 20px;
-    text-align:right;
+    position:relative;
+    margin-left:20px;
 }
     
 nav {
@@ -41,11 +42,13 @@ nav ul {
 
 nav ul li {
    padding-top:10px;
-    display: inline-block;
+    display: inline;
 }
 
 section ul li{
-    text-align:center;
+    display: inline;
+    position: relative;
+    margin-left: 500px;
    
 }
 
@@ -63,25 +66,43 @@ flex-basis: 100%;
 
 .about-me h2{
    border-right:2px solid blueviolet;
-   display: flex;
-    justify-content: center;
+   display: inline;
+   position:absolute;
+   margin-left:350px;
     
 }
+
 .about-me p{
-    text-align:end;
+    display:flex;
+    position:relative;
+    margin-left:500px;
+
 }
+
 
 .work h2{
     border-right:2px solid blueviolet;
-    display: flex;
-    justify-content: center;
+    display: inline;
+    position:absolute;
+    margin-left: 350px;
     
+}
+
+.work p{
+    display:flex;
+    position:relative;
+    margin-left:500px;
 }
 
 .contact-me h2{
     border-right:2px solid blueviolet;
-    display: flex;
-    justify-content: center;
-
+   display: inline;
+   position:absolute;
+   margin-left:350px;
 }
 
+.contact-me p{
+    display:flex;
+    position:relative;
+    margin-left:500px;
+}
