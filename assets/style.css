@@ -2,7 +2,7 @@
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     padding:0;
     margin:0;
-    background-color: black;
+    background-color:black;
     color:white;
 }
 
@@ -17,11 +17,17 @@ h1 {
     display: inline-block;
     font-size: 40px;
 }
+figure{
+    position:relative;
+}
 
-figure h2{
-    display:inline-block;
-    justify-content: flex-start;
+figcaption {
+    position:absolute;
     font-size: 20px;
+    bottom:0;
+    right:0;
+    background-color: rgb(250, 248, 248);
+    color:black;
 }
 
 p{  display:flex;
