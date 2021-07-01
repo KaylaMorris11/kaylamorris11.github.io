@@ -2,27 +2,34 @@
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     padding:0;
     margin:0;
-    background-color:black;
-    color:white;
+    background-color:white;
+    color: #2A9D8F;
 }
 
 header {
-    padding: 10px;
+    display: flex;
+    padding: 30px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    background-color: rgb(62, 8, 99);
-    color: #ffffff
+    background-color: #2A9D8F;
+    justify-content: space-between;
+}
+.name {
+    margin-left:100px;
+    padding-right: 30px;
+    color:#2A9D8F;
 }
 
 h1 {
     display: inline-block;
     font-size: 40px;
 }
-figure{
-    position:relative;
+
+figure {
+    position: relative;
 }
 
 figcaption {
-    position:absolute;
+    position: absolute;
     font-size: 20px;
     bottom:0;
     right:0;
@@ -30,16 +37,23 @@ figcaption {
     color:black;
 }
 
-p{  display:flex;
+p {  display: flex;
     font-size: 20px;
-    position:relative;
-    margin-left:20px;
+    position: relative;
+    margin-left: 20px;
 }
-    
+a:link {
+    text-decoration: none;
+}
+
 nav {
-    margin-right: 40px;
-    float: right;
- 
+    padding-top: 10px;
+    margin-right: 60px;
+    background-color: transparent;
+}
+
+ul {
+    color:#E9C46A;
 }
 
 nav ul {
@@ -47,68 +61,146 @@ nav ul {
 }
 
 nav ul li {
-   padding-top:10px;
-    display: inline;
+   display: inline;
+   font-size: 20px;
 }
 
 section ul li{
     display: inline;
     position: relative;
     margin-left: 500px;
-   
 }
 
-.portfolio-project:first-child{
-flex-grow: 1;
-flex-basis: 100%;
-}
-
-.hero{
-    width:100%;
-    height:200px;
-    object-fit:cover;
+.hero {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
     overflow: hidden;
 }
+.about-me {
+    margin-top:50px;
+    margin-right: 400px;
+    margin-bottom: 50px;
+}
 
-.about-me h2{
-   border-right:2px solid blueviolet;
+.about-me h2 {
    display: inline;
-   position:absolute;
-   margin-left:350px;
+   position: absolute;
+   margin-left: 300px;
+   font-size: 2rem;
+   padding: 5px 10px 0 0;
+   text-align: right;
+   margin-right: 20px;
+   width: 120px;
+}
+
+.about-me p {
+    display: flex; */
+    position: relative;
+    margin-left: 500px;
+
+}
+
+.work{
+    display: flex;
+    margin-top: 100px;
+    margin-right: 200px;
+    padding-bottom: 100px;
     
 }
 
-.about-me p{
-    display:flex;
-    position:relative;
-    margin-left:500px;
-
-}
-
-
-.work h2{
-    border-right:2px solid blueviolet;
+.work h2 {
     display: inline;
     position:absolute;
-    margin-left: 350px;
+    margin-left: 300px;
+    font-size: 2rem;
+    padding: 5px 10px 0 0;
+    text-align: right;
+    width: 120px;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-evenly;
+    margin-left: 490px;
+    margin-right: 270px;
+}
+
+.portfolio-project img {
+    height: 220px;
+    width: 450px;
+}
+
+.portfolio-project {
+    border: 4px solid #E9C46A;
+    height: 220px;
+    width: 450px;
+    }
     
+.portfolio-project:first-child {
+    flex-grow: 1;
+    width:100%;
+    margin-bottom:10px;
+}
+.portfolio-project:first-child img{
+    flex-grow: 2;
+    width:100%;
+    margin-bottom:10px;
+}
+#project2 {
+    margin-bottom: 10px;
+    margin-right: 5px;
+}
+#project4 {
+    margin-right: 5px;
 }
 
-.work p{
-    display:flex;
-    position:relative;
-    margin-left:500px;
+.contactme-container {
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: 400px;
+    margin-right: 400px;
+    margin-top: 45px;
+    margin-bottom: 100px;
 }
 
-.contact-me h2{
-    border-right:2px solid blueviolet;
+.contact-me h2 {
    display: inline;
-   position:absolute;
-   margin-left:350px;
+   position: absolute;
+   margin-left: 300px;
+   font-size: 2rem;
+    padding: 5px 10px 0 0;
+    text-align: right;
+    margin-right: 20px;
+    width: 120px;
 }
 
-.contact-me p{
-    display:flex;
-    position:relative;
-    margin-left:500px;
+  
+  @media screen and (max-width: 800px) {
+    .container{
+        flex-direction: column;
+    }
+    header {
+        flex-direction: column;
+        align-items: center;
+    }
+    header nav {
+        display: flex;
+        align-items: center;
+        margin-left:80px;
+    }
+  }
+
+  @media screen and (max-width: 150px) {
+    .container{
+        flex-direction: row;
+  }
+    header{
+    text-align: center;
+  }
+    header nav {
+   text-align: center;
+  }
 }
+ 
