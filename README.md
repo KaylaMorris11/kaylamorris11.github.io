@@ -3,8 +3,9 @@
 This is my professional portfolio to showcase my work and areas I'm strong in.
 
 Technoligies used: HTML & CSS
-![Screen Shot 2021-08-31 at 10 55 59 AM](https://user-images.githubusercontent.com/78561316/131554637-854d93c3-dae0-4b7f-a885-1ec7ae04e3e4.png)
-![Screen Shot 2021-08-31 at 10 56 09 AM](https://user-images.githubusercontent.com/78561316/131554645-69b6543e-a0c8-41a5-83a6-57631e118a60.png)
+![Screen Shot 2021-08-31 at 10 55 59 AM](https://user-images.githubusercontent.com/78561316/131554855-6547871e-329e-473b-8dcc-cc6431f05f03.png)
+![Screen Shot 2021-08-31 at 10 56 09 AM](https://user-images.githubusercontent.com/78561316/131554859-71584687-06f8-42b3-a05e-abde59a75c19.png)
+
 
 Deployed application: https://kaylamorris11.github.io/
 
