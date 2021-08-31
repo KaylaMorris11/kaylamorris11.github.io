@@ -1,44 +1,56 @@
 * {
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: 'Optima', sans-serif;
     padding:0;
     margin:0;
     background-color:white;
-    color: #2A9D8F;
+    color: black;
+}
+
+#about,
+#worknav,
+#contactme,
+#resume {
+    background-color:transparent;
+    color: black;
+    margin: 10px;
+
 }
 
 header {
     display: flex;
     padding: 30px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    background-color: #2A9D8F;
+    background-color: #ff99ff;
     justify-content: space-between;
 }
+
 .name {
     margin-left:100px;
-    padding-right: 30px;
-    color:#2A9D8F;
+    padding-right: 50px;
+    background-color:#ff99ff;
+
 }
 
 h1 {
     display: inline-block;
-    font-size: 40px;
+    font-size: 50px;
 }
 
-figure {
+/* figure {
     position: relative;
-}
+} */
 
-figcaption {
+/* figcaption {
     position: absolute;
     font-size: 20px;
     bottom:0;
     right:0;
     background-color: rgb(250, 248, 248);
     color:black;
-}
+} */
 
 p {  display: flex;
-    font-size: 20px;
+    font-size: 25px;
     position: relative;
     margin-left: 20px;
 }
@@ -53,16 +65,14 @@ nav {
 }
 
 ul {
-    color:#E9C46A;
-}
-
-nav ul {
-    list-style-type: none;
+    background-color: transparent;
 }
 
 nav ul li {
    display: inline;
    font-size: 20px;
+   background-color: transparent;
+
 }
 
 section ul li{
@@ -80,7 +90,6 @@ section ul li{
 .about-me {
     margin-top:50px;
     margin-right: 400px;
-    margin-bottom: 50px;
 }
 
 .about-me h2 {
@@ -103,7 +112,7 @@ section ul li{
 
 .work{
     display: flex;
-    margin-top: 100px;
+    margin-top: 50px;
     margin-right: 200px;
     padding-bottom: 100px;
     
@@ -133,7 +142,8 @@ section ul li{
 }
 
 .portfolio-project {
-    border: 4px solid #E9C46A;
+    border: 4px solid #ff99ff;
+    border-radius: 4px;
     height: 220px;
     width: 450px;
     }
