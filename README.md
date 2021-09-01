@@ -1,6 +1,6 @@
 # Professional Portfolio
 
-This is my professional portfolio to showcase my work and areas I'm strong in.
+This is my professional portfolio that showcases all my latest projects. As I'm still learning, my portfolio will be updated frequently to showcases all the areas I'm currently strong in!
 
 Deployed application: https://kaylamorris11.github.io/
 
