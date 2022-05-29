@@ -83,12 +83,12 @@ section ul li{
     margin-left: 500px;
 }
 
-/* .hero {
+.hero {
     width: 100%;
     height: 200px;
     object-fit: cover;
     overflow: hidden;
-} */
+}
 
 .about-me {
     margin-top:50px;
@@ -106,11 +106,10 @@ section ul li{
    width: 120px;
 }
 
-.about-me p {
+.about-me p{
     display: flex;
     position: relative;
     margin-left: 500px;
-
 }
 
 .work{
@@ -141,7 +140,7 @@ section ul li{
 
 .portfolio-project img {
     height: 220px;
-    width: 450px;
+    width: 350px;
 }
 
 .portfolio-project {
@@ -149,7 +148,7 @@ section ul li{
     border: 4px solid #ff99ff;
     border-radius: 4px;
     height: 220px;
-    width: 450px;
+    width: 350px;
     }
     
 .portfolio-project:first-child {
@@ -162,12 +161,12 @@ section ul li{
     width:100%;
     margin-bottom:10px;
 }
+
 #project2,
 #project4 {
     margin-bottom: 10px;
     margin-right: 8px;
 }
-
 
 .contactme-container {
     display: flex;
@@ -182,6 +181,7 @@ section ul li{
    display: inline;
    position: absolute;
    margin-left: 300px;
+   margin-top: 200px;
    font-size: 2rem;
     padding: 5px 10px 0 0;
     text-align: right;
@@ -189,31 +189,20 @@ section ul li{
     width: 120px;
 }
 
-  
-  @media screen and (max-width: 800px) {
-    .container{
-        flex-direction: column;
-    }
-    header {
-        flex-direction: column;
-        align-items: center;
-    }
-    header nav {
-        display: flex;
-        align-items: center;
-        margin-left:80px;
-    }
-  }
+ #contactheader{
+margin-top:200px;
+ }
+/* MEDIA QUERIES */
 
-  @media screen and (max-width: 150px) {
-    .container{
-        flex-direction: row;
-  }
-    header{
-    text-align: center;
-  }
-    header nav {
-   text-align: center;
-  }
+@media all and (max-width: 1200px){ 
+    /*Tablets [601px -> 1200px]*/
+     body{
+       width: 50%;
+    }
 }
- 
+@media all and (max-width: 600px){
+	/*Big smartphones [426px -> 600px]*/
+}
+@media all and (max-width: 425px){
+	/*Small smartphones [325px -> 425px]*/
+}
